@@ -10,5 +10,7 @@ public class DuckSimulatorApp {
         modelDuck.setFlyBehaviour(new FlyRocketPowered());
         modelDuck.performFly();
 
+        DuckCall d = new DuckCall();
+        d.performDuckCall();
     }
 }
