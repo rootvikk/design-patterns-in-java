@@ -13,7 +13,7 @@ A clean repository dedicated to learning, implementing, and practicing object-or
 *   **`RPG-design`**  
     Another implementation of the **Strategy Pattern** applied to an action-adventure game. The demo features various Characters classes that can dynamically change their attack strategies during Runtime.
 
-*   **`observer-pattern`** An implementation of the **Observer Pattern**. This demo models an employment agency system where an `EmploymentAgency` (the Subject/Observable) maintains a list of registered `JobSeeker`s (the Observers). Whenever a new `JobPost` is published, all interested job seekers are automatically notified, demonstrating a clean one-to-many dependency.
+*   **`observer-pattern`** An implementation of the **Observer Pattern**. This demo uses the **Observer Pattern** to automatically notify a list of registered job seekers whenever a new job is posted.
 
 ---
 
