@@ -10,6 +10,9 @@ A clean repository dedicated to learning, implementing, and practicing object-or
 *   **`DuckSimApp`**  
     An implementation of the **Strategy Pattern**. This simulator models various duck behaviors (flying and quacking) by encapsulating behaviors into separate interface implementations, allowing a duck's behavior to be dynamically changed at runtime.
 
+*   **`RPG-design`**  
+    Another implementation of the **Strategy Pattern** applied to an action-adventure game. The demo features various Characters classes that can dynamically change their attack strategies during Runtime.
+
 *   **`observer-pattern`** An implementation of the **Observer Pattern**. This demo models an employment agency system where an `EmploymentAgency` (the Subject/Observable) maintains a list of registered `JobSeeker`s (the Observers). Whenever a new `JobPost` is published, all interested job seekers are automatically notified, demonstrating a clean one-to-many dependency.
 
 ---
